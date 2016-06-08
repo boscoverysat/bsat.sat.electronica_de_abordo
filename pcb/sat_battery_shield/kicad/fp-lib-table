@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BoscoverySAT)(type KiCad)(uri "/home/lara/Documentos/Salesianos/BoscoveryLab/Boscovery SAT/Repository/satellite/bsat.sat.pruebas_de_integracion/pcb/kicad-bsat-lib/boscoverysat.pretty")(options "")(descr "BoscoverySAT footprints library"))
+)
