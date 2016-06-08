@@ -1,4 +1,4 @@
-# Prebas de Integración
+# Electrónica de Abordo
 
 ## Resumen
 
