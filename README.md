@@ -1,23 +1,22 @@
-# PCB
+# Electrónica de Abordo
 
 ## Resumen
 
-Esta sección del repositorio contiene los diseños y circuitos electrónicos correspondientes a las placas de circuito impreso del satélite.
+Este repositrio contiene tanto los esquemas electrónicos como los diseños de las placas de circuito impreso empleados para el
+control del satélite.
 
-## Elementos
+El actual diseño electrónico se ha llevado a cabo mediante el software **[KiCAD](http://kicad-pcb.org/)**.
 
-### [Receptor RF 430MHz](receptor_rf_430mhz/)
+## Contenido del repositorio
 
-Diseño de receptor para capturar localmente mediante Arduino, los datos enviados por el satélite.
+#### Directorio [docs](./docs/)
 
-### [SAT Battery Shield](sat_battery_shield/)
+Esta carpeta contine la documentación empleada para el diseño de la electrónica de abordo así como un conjunto de datasheets enpleados en el mismo.
 
-Diseño de la placa encargada de contener el sistema de alimentación del satélite.
+#### Directorio [pcb](./pcb/)
 
-### [SAT Control Shield](sat_control_shield/)
+Esta carpeta contine todos los diseños electrónicos del satélite.
 
-Diseño de la placa donde se ubicará el cerebro del del satélite así como los sitemas de control inercial y orientación.
+### Licencia
 
-### [SAT Transmission Shield](sat_transmission_shield/)
-
-Diseño de la placa encargada de contener el sistema de transmisión por radiofrecuencia del satélite.
+[![Creaive Commons 4.0 logo](img/cc40.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
