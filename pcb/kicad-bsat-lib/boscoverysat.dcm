@@ -1,3 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM78L09
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MAX1873REEE
+D Simple Current-Limited Switch-Mode Li+ Charger Controller
+$ENDCMP
+#
+$CMP NDS8435A
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP PS2011-1
+D SSOP-4, DC Optocoupler, Vce 40V, CTR 100-400%, -55ºC - 100ºC
+K NPN DC Optocoupler
+$ENDCMP
+#
 #End Doc Library
