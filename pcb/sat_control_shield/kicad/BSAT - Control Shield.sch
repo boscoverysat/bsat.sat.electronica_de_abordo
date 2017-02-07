@@ -105,7 +105,7 @@ U 1 1 5747D709
 P 8650 5000
 F 0 "ANT1" H 8600 4850 60  0000 R CNN
 F 1 "ANTENNA-1" H 8600 4950 60  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01" H 8650 5000 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm" H 8650 5000 60  0001 C CNN
 F 3 "" H 8650 5000 60  0000 C CNN
 	1    8650 5000
 	1    0    0    -1  
@@ -116,7 +116,7 @@ U 1 1 5747D814
 P 1600 2150
 F 0 "P1" H 1600 2300 50  0000 C CNN
 F 1 "POWER" V 1700 2150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1600 2150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1600 2150 50  0001 C CNN
 F 3 "" H 1600 2150 50  0000 C CNN
 	1    1600 2150
 	-1   0    0    -1  
@@ -303,7 +303,6 @@ NoConn ~ 3000 2700
 NoConn ~ 6200 4900
 NoConn ~ 6200 5000
 NoConn ~ 6200 5100
-NoConn ~ 6200 5200
 $Comp
 L GNDREF #PWR017
 U 1 1 5747EBE7
@@ -482,9 +481,9 @@ Entry Wire Line
 	5300 4100 5400 4200
 Entry Wire Line
 	5300 4200 5400 4300
-Text Label 4350 4400 0    60   ~ 0
+Text Label 4350 2400 0    60   ~ 0
 LS_SELECT_0
-Text Label 4350 4300 0    60   ~ 0
+Text Label 4350 2500 0    60   ~ 0
 LS_SELECT_1
 Text Label 5600 1550 0    60   ~ 0
 LS_SELECT_1
@@ -513,13 +512,10 @@ NoConn ~ 4100 3000
 NoConn ~ 4100 2800
 NoConn ~ 4100 2700
 NoConn ~ 4100 2600
-NoConn ~ 4100 2500
 NoConn ~ 4100 2200
 NoConn ~ 4100 2100
 NoConn ~ 4100 3200
 NoConn ~ 4100 3300
-NoConn ~ 4100 2300
-NoConn ~ 4100 2400
 Wire Wire Line
 	2800 2000 2800 2100
 Wire Wire Line
@@ -677,13 +673,13 @@ Connection ~ 2850 4400
 Wire Bus Line
 	5400 700  8100 700 
 Entry Wire Line
-	5300 4300 5400 4400
+	5300 2400 5400 2500
 Entry Wire Line
-	5300 4400 5400 4500
+	5300 2500 5400 2600
 Wire Wire Line
-	5300 4300 4100 4300
+	5300 2400 4100 2400
 Wire Wire Line
-	5300 4400 4100 4400
+	5300 2500 4100 2500
 NoConn ~ 4100 3900
 NoConn ~ 4100 4000
 Entry Wire Line
@@ -1860,7 +1856,7 @@ E7 57 AE 5C 59 3C 7A F4 E8 67 C7 8E 1D 5B D0 6A B5 F3 BD BD BD F3 00 EE 03 F8 B4
 31 B5 6F 05 C0 17 00 56 01 7C 1E 23 8B FD 0B AB D5 1A D2 F6 41 13 49 0C 31 C4 10 83 2F C4 4A 87 
 63 88 21 86 6D 23 46 24 31 C4 10 C3 B6 11 23 92 18 62 88 61 DB 88 11 49 0C 31 C4 B0 6D C4 88 24 
 86 18 62 D8 36 62 44 12 43 0C 31 6C 1B 31 22 89 21 86 18 B6 8D 18 91 C4 10 43 0C DB 46 8C 48 62 
-88 21 86 6D E3 FF 07 DC F5 6D 6C 7D E1 AE A5 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+88 21 86 6D E3 FF 07 DC F5 6D 6C 7D E1 AE A5 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
 NoConn ~ 6200 1800
@@ -1927,4 +1923,20 @@ Text Label 5600 5950 0    60   ~ 0
 SDA
 Text Label 5600 6050 0    60   ~ 0
 SCL
+Entry Wire Line
+	5400 5100 5500 5200
+Wire Wire Line
+	5500 5200 6200 5200
+Text Label 5600 5200 0    60   ~ 0
+GYRO_INT
+Entry Wire Line
+	5300 2300 5400 2400
+Wire Wire Line
+	4100 2300 5300 2300
+Text Label 4350 2300 0    60   ~ 0
+GYRO_INT
+Text Notes 2350 5400 0    79   ~ 0
+ALERTA\nLos pines A6 y A7 no se pueden usar como \nI/O digital al igual que los otros. Sólo son de \nentrada. Se deberá selecionar otra pareja \nde pines para poder gestionar la conmutación \ndel I2C.
+NoConn ~ 4100 4300
+NoConn ~ 4100 4400
 $EndSCHEMATC
