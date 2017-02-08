@@ -1939,7 +1939,7 @@ Wire Wire Line
 	7400 3850 7400 3800
 Connection ~ 7400 3800
 Wire Wire Line
-	8150 2200 10250 2200
+	7950 2200 10250 2200
 Wire Wire Line
 	9150 1950 9100 1950
 Wire Wire Line
