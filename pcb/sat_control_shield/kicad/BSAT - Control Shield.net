@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/lara/Documentos/Salesianos/BoscoveryLab/Boscovery SAT/Repository/satellite/bsat.sat.electronica_de_abordo/pcb/sat_control_shield/kicad/BSAT - Control Shield.sch")
-    (date "dom 05 feb 2017 13:48:32 WET")
+    (date "mié 08 feb 2017 05:41:29 WET")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -215,6 +215,8 @@
         (pin (num 7) (name ADO) (type input))
         (pin (num 8) (name INT) (type input)))))
   (libraries
+    (library (logical boscoverysat)
+      (uri "/home/lara/Documentos/Salesianos/BoscoveryLab/Boscovery SAT/Repository/satellite/bsat.sat.electronica_de_abordo/pcb/kicad-bsat-lib/boscoverysat.lib"))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical boscoverysat)

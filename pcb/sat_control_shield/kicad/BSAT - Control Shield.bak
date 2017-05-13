@@ -1925,18 +1925,16 @@ Text Label 5600 6050 0    60   ~ 0
 SCL
 Entry Wire Line
 	5400 5100 5500 5200
+Text Label 5600 5200 0    60   ~ 0
+GYRO_INT
 Wire Wire Line
 	5500 5200 6200 5200
-Text Label 5600 5200 0    60   ~ 0
+Text Label 4350 2300 0    60   ~ 0
 GYRO_INT
 Entry Wire Line
 	5300 2300 5400 2400
 Wire Wire Line
-	4100 2300 5300 2300
-Text Label 4350 2300 0    60   ~ 0
-GYRO_INT
-Text Notes 2350 5400 0    79   ~ 0
-ALERTA\nLos pines A6 y A7 no se pueden usar como \nI/O digital al igual que los otros. Sólo son de \nentrada. Se deberá selecionar otra pareja \nde pines para poder gestionar la conmutación \ndel I2C.
+	5300 2300 4100 2300
 NoConn ~ 4100 4300
 NoConn ~ 4100 4400
 $EndSCHEMATC
