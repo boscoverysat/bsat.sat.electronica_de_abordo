@@ -1,21 +1,15 @@
-# Electrónica de Abordo
+![Github header](img/github-repositories.png)
 
-## Resumen
+# SAT Electrónica de Abordo
 
-Este repositrio contiene tanto los esquemas electrónicos como los diseños de las placas de circuito impreso empleados para el
-control del satélite.
+### Este repositorio ha sido descontinuado.
 
-El actual diseño electrónico se ha llevado a cabo mediante el software **[KiCAD](http://kicad-pcb.org/)**.
+La información relativa a los elementos electrónicos del satélite podrán encontrarse en los siguientes enlaces:
 
-## Contenido del repositorio
-
-#### Directorio [docs](./docs/)
-
-Esta carpeta contine la documentación empleada para el diseño de la electrónica de abordo así como un conjunto de datasheets enpleados en el mismo.
-
-#### Directorio [pcb](./pcb/)
-
-Esta carpeta contine todos los diseños electrónicos del satélite.
+- [Onboard Computer (OBC)](https://github.com/boscoverysat/bsat.sat.electronica.onboard_computer)
+- [Electric Power System (EPS)](https://github.com/boscoverysat/bsat.sat.electronica.electric_power_system)
+- [Communications (COMM)](https://github.com/boscoverysat/bsat.sat.electronica.communications)
+- [Librerías](https://github.com/boscoverysat/bsat.sat.electronica.librerias)
 
 ### Licencia
 
